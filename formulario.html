@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario </title>
+</head>
+<body bgcolor="#E5BEBE" >
+    <form>
+        <tr>
+            <td>
+                <p>Regresar a pagina Principal</p>
+                <a href="alison.html"target:"_blank"> 
+                   <img src="https://previews.123rf.com/images/faysalfarhan/faysalfarhan1602/faysalfarhan160200092/52259310-zur%C3%BCck-pfeil-symbol-cyan-blau-gl%C3%A4nzend-runde-taste.jpg" alt="para regresar" width="80"height="auto"> </a> <br> <br><br>    
+            </td>
+        </tr>
+        <table border="0" align="center" width="800" bgcolor="#B26363">
+         <tr>
+            <td>
+                <h1 align="center"> Formulario </h1>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="Nombre">Introduzca su Nombre:</label>
+                <input type="texto" name="Nombre" size="35"> <br> <br>
+            </td>
+         </tr>
+         <tr>
+             <td>
+                <label for="apellido">Introduzca su Apellido:</label>
+                <input type="texto" name="apellido" size="35"> <br> <br>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                <label for="edad">Ingrese su edad:</label>
+                <input type="texto" name="edad" size="15" maxlength="2"placeholder="ingrese dos digitos"> <br> <br>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                <label for="fecha">Introduzca la Fecha de Nacimiento:</label>
+                <input type="date" name="fecha"> <br> <br>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                <label for="email">Introducir el correo Electronico:</label>
+                <input type="email" name="email" size="35"required placeholder="obligatorio  ingresar el @"> <br> <br>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                <label for="nacimiento">Introduzca el lugar de Nacimiento:</label>
+                <input type="text" name="nacimiento"> <br> <br>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                <label for="sexo">Definir sexo:</label>
+                <input type="radio" name="sexo" id="Hombre" value="h" checked>
+               <label for="hombre">Hombre</label>
+               <input type="radio" name="sexo" id="Mujer" value="m">
+               <label for="mujer">Mujer</label> <br> <br> <br>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                <label for="pais">Seleccione el pais en que recide:</label>
+                <select name="pais" id="pais">
+                  <option value="hn">Honduras</option>
+                  <option value="gt">Guatemala</option>
+                  <option value="cr">Costa Rica</option>
+                  <option value="nc">Nicaragua</option>
+                  <option value="ot">Otro</option>
+                </select> <br><br>     
+             </td>
+         </tr>
+         <tr>
+             <td>
+                <label for="hora">Ingrese la hora de realización: </label>
+                <input type="time" name="hora" id="hora"> <br><br>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                <label> ¿Qué transporte posee? </label> <br><br>
+                <label for="carro">Carro</label>
+                <input type="checkbox" name="carro" value="carro" checked>
+                
+                <label for="moto">Motocicleta</label>
+                <input type="checkbox" name="moto" value="moto">
+        
+                <label for="bicicleta">Bicicleta</label>
+                <input type="checkbox" name="bicicleta" value="bicicleta"> 
+
+                <label for="ninguno">Ninguno <label>
+                <input type="checkbox" name="ninguno" value="ninguno"> <br> <br>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                 <label for="cometario">Escriba un comentario (no obligatorio):</label>
+                 <textarea name="comentario" id="comentario" cols="25" rows="4"></textarea> <br><br>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                <label for="foto">Ingrese su foto:</label>
+                <input type="file" name="foto" id="foto"> <br><br><br>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                 <button type="submit">EnviarFormulario </button>
+                 <button type="reset">Eliminar Formulario</button> <br><br>
+             </td>
+         </tr>
+      </table>
+    </form>
+    
+</body>
+</html>
